@@ -1,0 +1,13 @@
+# Canonical reproducibility environment — 2026-09-13
+python==3.13.5
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+geopandas==1.1.2
+shapely==2.1.2
+pyproj==3.7.2
+scikit-learn==1.8.0
+openblas==0.3.30
+OPENBLAS_NUM_THREADS=5
+OMP_NUM_THREADS=5
+MKL_NUM_THREADS=5

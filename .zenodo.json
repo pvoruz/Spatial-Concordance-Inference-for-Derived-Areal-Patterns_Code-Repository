@@ -1,0 +1,22 @@
+{
+  "title": "Spatial Concordance Inference for Derived Areal Patterns \u2014 research code",
+  "description": "Research code, archived analysis scripts, reproducibility materials, and synthetic reference outputs for Spatial Concordance Inference (SCI).",
+  "creators": [
+    {
+      "name": "Voruz, Philippe"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "spatial concordance",
+    "Moran spectral randomization",
+    "Jaccard",
+    "areal data",
+    "spatial epidemiology"
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "0.2.0",
+  "publication_date": "2026-09-13",
+  "url": "https://github.com/pvoruz/Spatial-Concordance-Inference-for-Derived-Areal-Patterns_Code-Repository"
+}
