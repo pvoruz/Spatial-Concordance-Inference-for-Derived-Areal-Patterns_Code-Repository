@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the archived software release."
+title: "Spatial Concordance Inference for Derived Areal Patterns"
+type: software
+version: 0.2.0
+date-released: 2026-09-13
+authors:
+  - family-names: Voruz
+    given-names: Philippe
+keywords:
+  - spatial concordance
+  - Moran spectral randomization
+  - Jaccard
+  - areal data
+  - spatial epidemiology
+repository-code: "https://github.com/pvoruz/Spatial-Concordance-Inference-for-Derived-Areal-Patterns_Code-Repository"
+license: MIT
