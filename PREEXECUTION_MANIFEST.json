@@ -1,0 +1,16 @@
+{
+  "package_version": "1.0.0",
+  "created_date": "2026-09-11",
+  "official_source": "SITG OCS_POPULATION_SSECTEUR",
+  "expected_crs": "EPSG:2056",
+  "clinical_calibration_public_aggregates": {
+    "N_total": 1071,
+    "N_18_59": 393,
+    "N_60plus": 678
+  },
+  "patient_level_data_in_package": false,
+  "empirical_tbi_coordinates_in_package": false,
+  "empirical_tbi_hotspot_geometry_in_package": false,
+  "official_geojson_in_package": false,
+  "official_execution_status": "PENDING_OFFICIAL_GEOJSON_INGESTION"
+}

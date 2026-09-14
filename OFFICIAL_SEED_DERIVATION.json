@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_OFFICIAL_SITG_INGESTION",
+  "rule": "uint32(first_8_bytes(SHA256(salt + \"|\" + label))) modulo 2^32",
+  "salt": "Spatial-Concordance-Inference|Geneva-semi-synthetic|official-application|2026-09-11|v5",
+  "salt_sha256": "b0cd63b683ded546371bd1de739cc9b7a8b8fdaafd83e82c95a99801e9a99095",
+  "labels": {
+    "risk_seed": "risk",
+    "event_seed_work": "event_18_59",
+    "event_seed_senior": "event_60plus",
+    "null_seed_unconditional": "null_unconditional",
+    "null_seed_population": "null_population"
+  },
+  "derived_seeds": {
+    "risk_seed": 3881403529,
+    "event_seed_work": 2709442075,
+    "event_seed_senior": 3677299859,
+    "null_seed_unconditional": 3167490608,
+    "null_seed_population": 3340987581
+  },
+  "guardrail": "These publication seeds must not be executed on fictitious/dry-run support before the official SITG support is ingested. Engine dry-runs use a distinct test-only seed namespace.",
+  "reason_for_v5_change": "The v4 publication seeds had already been exposed in the fictitious dry-run. They were retired prospectively before official Geneva ingestion to remove any post-selection concern.",
+  "official_geojson_seen_when_frozen": false
+}
